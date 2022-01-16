@@ -1,0 +1,12 @@
+[user]
+	name = [Jose Benavides]
+	email = [red@k6wlr.com]
+[color]
+	ui = auto
+[push]
+	default = tracking 
+[alias]
+	st = status
+	ci = commit -v
+[pull]
+	rebase = false

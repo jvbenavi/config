@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/r/log
+git add --all;
+git commit -m"update $(date +%y%m%d%H)"
+git push
