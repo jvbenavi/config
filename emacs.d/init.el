@@ -104,12 +104,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   (quote
-    (git-auto-commit-mode evil-escape evil-visual-mark-mode helm markdown-mode use-package)))
+   '(git-auto-commit-mode evil-escape evil-visual-mark-mode helm markdown-mode use-package))
  '(safe-local-variable-values
-   (quote
-    ((gac-automatically-add-new-files-p . t)
-     (gac-automatically-push-p . t)))))
+   '((gac-automatically-add-new-files-p . t)
+     (gac-automatically-push-p . t))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
