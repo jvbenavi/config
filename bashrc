@@ -101,6 +101,7 @@ alias ll='ls -lh'
 alias la='ls -lA'
 alias l='ls -CFk'
 #alias l="ls -lhG"
+alias vi='vim'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
