@@ -55,3 +55,6 @@ map <leader>v :on<cr>
 
 "let g:vim_markdown_folding_style_pythonic = 1
 set foldlevelstart=2
+
+set number
+set relativenumber
