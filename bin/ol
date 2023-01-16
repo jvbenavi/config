@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #emacs -nw ~/r/log/note_stash.txt ~/r/log/ActivityLog.md ~/r/log/0Today.md
-nvim ~/r/log/ActivityLog.md ~/r/log/0Today.md
+nvim ~/r/log/0Today.md ~/r/log/ActivityLog.md

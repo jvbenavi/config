@@ -29,8 +29,6 @@ call plug#end()
 
 
 
-
-
 " With a map leader it's possible to do extra key combinations
 let mapleader = ","
 let g:mapleader = ","
@@ -42,16 +40,20 @@ nmap <leader>w :w!<cr>
 nmap <leader>oi :!oi<cr>
 nmap <leader>oo :!oo<cr>
 
-" list all buffer and file names 
-map <leader>bs :buffers<cr>
-" go to next/prev buffer 
-map <leader>bn :bnext<cr>
-map <leader>bp :bprevious<cr>
-map <leader>bl :blast<cr>
-map <leader>bf :bfirst<cr>
+" list all buffer and file names (same as :buffers)
+nnoremap <leader>b :ls<cr>:b<space>
+
+" other :b tricks:
+" tab completion, c-d list completion, :sb works for splits, # is alt-buffer
+
+" goto next/prev buffer 
+map <leader>n :bnext<cr>
+map <leader>p :bprevious<cr>
+" [N] <c-6> goto [N]/alt buffer 
 
 " delete-other-windows  ;; C-w o
 map <leader>v :on<cr>
+" also nice: C-w _ max window size 
 
 "let g:vim_markdown_folding_style_pythonic = 1
 set foldlevelstart=2
