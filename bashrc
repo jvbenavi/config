@@ -142,4 +142,5 @@ PATH=$HOME/r/config/bin:$PATH
 #export LANG=en_GB.UTF-8
 #export LANGUAGE=en_GB.UTF-8
 
+export LC_COLLATE=en_US
 
